@@ -1,0 +1,37 @@
+.content {
+  width: 50%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: var(--background);
+  height: 100vh;
+  overflow-y: hidden;
+  background-color: white;
+  @media (max-width: 850px) {
+    width: 100%;
+  }
+}
+.tools {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+  margin-top: 2rem;
+  justify-content: center;
+
+  .tool-1 {
+    width: 40%;
+    height: 280px;
+    background-color: rgb(242, 157, 157);
+    margin: 0.5rem;
+    border-radius: 10px;
+  }
+  .tool-2 {
+    width: 40%;
+    height: 280px;
+    background-color: rgb(242, 157, 157);
+    margin: 0.5rem;
+    border-radius: 10px;
+  }
+}
